@@ -33,7 +33,6 @@ elif kode_maskapai == "4050":
     harga_kelas_first_class = 850000
 else:
     print("Kode maskapai tidak ada.")
-    exit()
 
 # Memilih kelas dan jumlah tiket
 print("\nPilih kelas maskapai:")
@@ -55,7 +54,6 @@ elif pilihan_kelas == 3:
     harga_total = harga_kelas_first_class * jumlah_tiket
 else:
     print("Pilihan kelas tidak ada.")
-    exit()
 
 # terapkan diskon jika membeli lebih dari 3 tiket
 if jumlah_tiket >=3:
